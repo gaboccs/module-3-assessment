@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Welcome to this little website.</h1>
+		<p>Hello world</p>
+
+		<img id="cat-image" src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="A cute cat!">
+
+		<p>Welcome to the cat-show page</p>
+		<ul>
+			<li>You are great!</li>
+			<li>Looks like you are a cat lover!</li>
+			<li>Thank you for visiting us!</li>
+		</ul>
+
+		<h2>Contact Us</h2>
+
+		<form action="/submit-form" method="post">
+			<label for="how-heard">How did you hear about us?</label>
+			<br>
+			<input type="checkbox" id="google" name="how-heard" value="Google">
+			<label for="google">Google</label>
+			<br>
+			<input type="checkbox" id="friend" name="how-heard" value="A friend">
+			<label for="friend">A friend</label>
+			<br>
+			<input type="checkbox" id="other" name="how-heard" value="Other">
+			<label for="other">Other</label>
+			<br>
+			<input type="submit" value="Submit">
+		  </form>
+		  
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+
+			<input type="submit">
+
+
+		</form>
+
+	</content>
+
+
+	<script src="about.js"></script>
+
+</body>
+</html>
